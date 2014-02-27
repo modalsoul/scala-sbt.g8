@@ -13,11 +13,7 @@ object ProjectBuild extends Build {
       scalaVersion := "$scala_version$",
       libraryDependencies ++= Seq(
         // test
-        "org.specs2" %% "specs2" % "1.9" % "test",
-            
-        //log
-        "org.clapper" %% "grizzled-slf4j" % "0.6.8",
-        "ch.qos.logback" % "logback-classic" % "1.0.1"
+        "org.specs2" %% "specs2_2.10" % "1.12.3" % "test"
       )
       // add other settings here
     )
