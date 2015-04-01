@@ -1,11 +1,9 @@
 package $package$.$name$
 
-import org.specs2.mutable._
+import org.scalatest.{FlatSpec, Matchers}
 
-object $name;format="Camel"$AppSpec extends Specification {
+object $name;format="Camel"$AppSpec extends FlatSpec with Matchers {
   "sample" should {
-    "sample" in {
-      "foo" must_== "foo"
-    }
+    
   }
 }
