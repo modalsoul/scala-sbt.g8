@@ -1,4 +1,4 @@
-name := "$name;format=\"normalize\"$"
+name := "$name;format="normalize"$"
 
 organization := "$organization$"
 
